@@ -1,0 +1,36 @@
+{
+  "screen1":{
+          "name":"Ram",
+          "age":28,
+          "address":"No 123,Sector 2,Hsr,Bangalore",
+          "dob":"1991-08-23",
+          "country":"India"
+  },
+  
+  "screen2":{
+          "customerName":"Dilip",
+          "customerId":"4343A2A",
+          "address":"No 123,Sector 2,Hsr,Bangalore",
+          "cardType":"Platinum"     
+  },
+
+  "types":{
+    "name":{"dataType":"string","uiType":"textInput"},
+    "age":{"dataType":"number","uiType":"number"},
+    "address":{"dataType":"string","uiType":"textArea"},
+    "dob":{"dataType":"date","uiType":"date"},
+    "country":{"dataType":"string","uiType":"dropdown"},
+
+    "customerName":{"dataType":"string","uiType":"textInput"},
+    "customerId":{"dataType":"string","uiType":"textInput"},
+    "customerAddress":{"dataType":"string","uiType":"textArea"},
+    "cardType":{"dataType":"string","uiType":"dropdown"}
+  },
+  
+  "dropdowns":{
+    "country":["India","Scotland","Germany","France"],
+    "cardType":["Platinum","Gold","Silver"]
+  }
+
+
+}
